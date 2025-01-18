@@ -11,7 +11,7 @@ function checkAnswer() {
     if (userAnswer === correctAnswer) {
         feedback.textContent = "Correct! Well done.";  // User is correct
     } else {
-        feedback.textContent = "That's incorrect. Try again.";  // User is incorrect
+        feedback.textContent = "That's incorrect. Try again!";  // User is incorrect
     }
 }
 
